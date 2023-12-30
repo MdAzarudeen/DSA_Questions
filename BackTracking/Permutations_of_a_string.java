@@ -10,6 +10,9 @@
 //        Given string ABC has permutations in 6
 //        forms as ABC, ACB, BAC, BCA, CAB and CBA .
 
+
+https://www.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1?page=1&category=Backtracking&sortBy=submissions
+
 //{ Driver Code Starts
 import java.util.*;
 import java.lang.*;
@@ -45,29 +48,31 @@ class Solution {
     public List<String> find_permutation(String S) {
         // Code here
         List<String> ans = new ArrayList<>();
-        char[] c = S.toCharArray();
-        perm(0, c, ans);
+        char[]c = S.toCharArray();
+        perm(0,c,ans);
         Collections.sort(ans);
         return ans;
     }
-
-    public void perm(int idx, char[] c, List<String> ans) {
-        if (idx >= c.length) {
+    public void perm(int idx, char[]c, List<String>ans)
+    {
+        if(idx>=c.length)
+        {
             String str = new String(c);
-            if (!ans.contains(str))
+            if(!ans.contains(str))
                 ans.add(str);
             return;
         }
-        for (int i = 0; i < c.length; i++) {
-            swap(i, idx, c);
-            perm(idx + 1, c, ans);
-            swap(i, idx, c);
+        for(int i=0; i<c.length; i++)
+        {
+            swap(i,idx,c);
+            perm(idx+1,c,ans);
+            swap(i,idx,c);
         }
     }
-
-    public void swap(int i, int idx, char[] c) {
-        char temp = c[i];
-        c[i] = c[idx];
-        c[idx] = temp;
+    public void swap(int i, int idx, char[]c)
+    {
+        char temp= c[i];
+        c[i]=c[idx];
+        c[idx]=temp;
     }
 }
