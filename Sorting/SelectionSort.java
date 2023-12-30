@@ -44,7 +44,7 @@ class GFG
 // } Driver Code Ends
 
 // Tc: O(N^2) - best, worst, average
-
+// Selection sort means selects the minimum value and push it to first
 class Solution
 {
     void selectionSort(int arr[], int n)
