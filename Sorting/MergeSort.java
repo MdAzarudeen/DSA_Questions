@@ -11,7 +11,7 @@ https://www.geeksforgeeks.org/problems/merge-sort/1?itm_source=geeksforgeeks&itm
 
 
 //Merge sort involves dividing the array into two parts and sorting them and merging later
-//TC: O(N log2N) -> best, case, worst
+//TC: O(N log2N) -> best, average, worst
 //SC: O(N) -> as we create a temp arraylist in merge fn..
 
 //{ Driver Code Starts
