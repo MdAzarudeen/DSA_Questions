@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ad263890-1bb0-44e9-9e0b-3fbae4fe1b0b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackTracking/Permutations_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackTracking/Permutations_of_a_string.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
