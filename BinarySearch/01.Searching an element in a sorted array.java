@@ -1,7 +1,6 @@
 https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1?page=1&category=Binary%20Search&sortBy=submissions
 
 //{ Driver Code Starts
-import java.util.*;
 import java.lang.*;
 import java.io.*;
 

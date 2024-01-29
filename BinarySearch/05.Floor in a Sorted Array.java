@@ -1,7 +1,6 @@
 https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1
 
 //{ Driver Code Starts
-import java.util.*;
 import java.lang.*;
 import java.io.*;
 

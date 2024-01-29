@@ -4,8 +4,6 @@ https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1?utm_source=gee
 //Initial Template for Java
 
 
-
-import java.util.*;
 import java.io.*;
 
 public class Main {
